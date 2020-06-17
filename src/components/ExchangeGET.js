@@ -9,30 +9,33 @@ const ExchangeGET = props => {
   const [myCurrency, setMyCurrency] = useState([]);
 
   const getMyCurrency = () => {
-      fetch(`https://v6.exchangerate-api.com/v6/0a2319c23c1859c60e2f4c47/latest/EUR`, {
-        method: "GET",
-      })
-        .then(response => response.json())
-        .then(setMyCurrency);
-  };
-
-  useEffect(getMyCurrency, []);
+    fetch(`https://v6.exchangerate-api.com/v6/0a2319c23c1859c60e2f4c47/latest/EUR`, {
+      method: "GET",
+    })
+      .then(response => response.json())
+      .then(data => console.log(data));
+};
+useEffect(
+  () => {
+    setMyCurrency(getMyCurrency())
+    console.log(myCurrency);
+  }, [myCurrency]);
 
   return (
     <>
 
       <div className="myCurrency-Div">
-        {myCurrency.length > 0 ? (
+        {myCurrency > 0 ? (
           // looping through currency and displaying the information in a table component
-          myCurrency.map(currency => {
+          myCurrency.conversion_rates(myCurrency).forEach(currency => {
             return (
-              <ExchangeTable
+              <div
                 key={currency}
-                currency={currency}
-                getMyRunners={getMyCurrency}
+                mycurrency={currency}
+                getMyCurrency={getMyCurrency}
               />
-            );
-          })
+             )
+            })
         ) : (
           <p>You have no money</p>
         )}

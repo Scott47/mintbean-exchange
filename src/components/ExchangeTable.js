@@ -1,39 +1,18 @@
 import React from "react";
-import { Table, Container } from 'reactstrap'
-import './ExchangeTable.css'
+import { Table, Container } from "reactstrap";
+import "./ExchangeTable.css";
 
-
-
-const ExchangeTable = props => {
+const ExchangeTable = (props) => {
   return (
     <>
     <Container>
-
-        <Table dark-light size="sm" hover bordered className='report'>
-            <thead>
-            <tr className='report-head'>
-                <th>Currency</th>
-                <th>Rate</th>
-
-            </tr>
-            </thead>
-            <tbody>
-            {
-                props.reports.map(report => {
-
-                    return (
-                        <tr className='report'>
-                        <td>{}, {}</td>
-                        <td>{}</td>
-
-                        </tr>
-                    );
-                })
-            }
-            </tbody>
-        </Table>
-        </Container>
-
+      {Object.conversion_rates(props.myCurrency).forEach(currency => {
+          console.log(currency)
+     return (<div className="report">{currency.conversion_rates}</div>
+     )
+      })
+    }
+    </Container>
     </>
   );
 };
