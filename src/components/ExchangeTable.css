@@ -1,0 +1,17 @@
+.report-head {
+    color: black;
+    text-align: center;
+}
+
+.report {
+   color: black;
+   /* color: gainsboro; */
+
+
+}
+.table-heading {
+   display: flex-wrap;
+   flex-direction: row;
+   color: black;
+
+}
