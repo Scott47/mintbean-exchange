@@ -13,20 +13,21 @@ const ExchangeGET = props => {
       method: "GET",
     })
       .then(response => response.json())
-      .then(data => console.log(data));
+      .then(data => {setMyCurrency(data)
+      })
 };
 useEffect(
   () => {
     setMyCurrency(getMyCurrency())
     console.log(myCurrency);
-  }, [myCurrency]);
+  }, []);
 
   return (
     <>
 
       <div className="myCurrency-Div">
         {myCurrency > 0 ? (
-          // looping through currency and displaying the information in a table component
+
           myCurrency.conversion_rates(myCurrency).forEach(currency => {
             return (
               <div
