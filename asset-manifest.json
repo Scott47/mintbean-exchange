@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mintbean-exchange/static/css/main.7fabcb14.chunk.css",
+    "main.js": "/mintbean-exchange/static/js/main.807f013c.chunk.js",
+    "main.js.map": "/mintbean-exchange/static/js/main.807f013c.chunk.js.map",
+    "runtime-main.js": "/mintbean-exchange/static/js/runtime-main.3245cbc8.js",
+    "runtime-main.js.map": "/mintbean-exchange/static/js/runtime-main.3245cbc8.js.map",
+    "static/js/2.a9ab2377.chunk.js": "/mintbean-exchange/static/js/2.a9ab2377.chunk.js",
+    "static/js/2.a9ab2377.chunk.js.map": "/mintbean-exchange/static/js/2.a9ab2377.chunk.js.map",
+    "index.html": "/mintbean-exchange/index.html",
+    "precache-manifest.0b4c97027b566076d31741c8eef83a6b.js": "/mintbean-exchange/precache-manifest.0b4c97027b566076d31741c8eef83a6b.js",
+    "service-worker.js": "/mintbean-exchange/service-worker.js",
+    "static/css/main.7fabcb14.chunk.css.map": "/mintbean-exchange/static/css/main.7fabcb14.chunk.css.map",
+    "static/js/2.a9ab2377.chunk.js.LICENSE.txt": "/mintbean-exchange/static/js/2.a9ab2377.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3245cbc8.js",
+    "static/js/2.a9ab2377.chunk.js",
+    "static/css/main.7fabcb14.chunk.css",
+    "static/js/main.807f013c.chunk.js"
+  ]
+}
