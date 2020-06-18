@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d858df8fa52b9dc661455842b8a0763d",
+    "revision": "ef53c930c5514c8e399ec848f23f8f39",
     "url": "/mintbean-exchange/index.html"
   },
   {
-    "revision": "b8aa83696b825fcbed10",
-    "url": "/mintbean-exchange/static/css/main.7fabcb14.chunk.css"
+    "revision": "b7476e45829f0982733b",
+    "url": "/mintbean-exchange/static/css/main.65b45423.chunk.css"
   },
   {
     "revision": "ff5603a328628a48eeed",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mintbean-exchange/static/js/2.a9ab2377.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8aa83696b825fcbed10",
-    "url": "/mintbean-exchange/static/js/main.807f013c.chunk.js"
+    "revision": "b7476e45829f0982733b",
+    "url": "/mintbean-exchange/static/js/main.f44ad4df.chunk.js"
   },
   {
     "revision": "cd07497ffb0eb381c40e",
